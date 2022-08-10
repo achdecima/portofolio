@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portofólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="#">Port<span>fólio</span></a></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#port">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#port">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="btn-mobile">
+            <ion-icon name="grid-outline"></ion-icon>
+        </div>
+    </header>
+    <img src="IMG_portofólio.jpg" alt="portofólio"
+    width="160px">
+    <main id="home">
+        <div class="container">
+            <div class="icons">
+                <a href="https://br.linkedin.com/in/achille-landa-56a635244"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/achdecima"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+            <div class="title">
+                <h2>ACHILLE LANDA KINTENDA</h2>
+                <h2>Desenvolvedor</h2>
+                <h3>Programador</h3>
+            </div>
+        </div>
+    </main>
+    <section id="about">
+        <div class="container">
+            <div class="title">
+                <h1>Sou um desenvolvedor</h1>
+                <p>trabalho com projeto de A a Z na programação,para concluir com un resultado bom.</p>
+                <div class="box-title">
+                    <p>90%</p>
+                    <div class="b1"><div class="b2"></div></div>
+                    <span>HTML</span>
+
+                    <p>81%</p>
+                    <div class="b1"><div class="b3"></div></div>
+                    <span>CSS</span>
+
+                    <p>69%</p>
+                    <div class="b1"><div class="b4"></div></div>
+                    <span>JAVASCRIPT</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="port">
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img src="" alt="">
+                    <h1>Web</h1>
+                    <p>Para mais detalhes</p>
+                    <button>clique aqui</button>
+                </label>
+                <label class="card" for="item-2" id="song-2">
+                    <img src="" alt="">
+                    <h1>desgin</h1>
+                    <p>Para mais detalhes</p>
+                    <button>clique aqui</button>
+                </label>
+                <label class="card" for="item-3" id="song-3">
+                    <img src="" alt="">
+                    <h1>studio</h1>
+                    <p>Para mais detalhes</p>
+                    <button>clique aqui</button>
+                </label>
+             
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="content-contact">
+                <div class="contact-left">
+                    <h1>Entre em contato </h1>
+                    <div class="linha"></div>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span>achillelanda97@gmail.com</span>
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>+5521979805233</span>
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span>Rio de Janeiro,Brasil</span>
+                </div>
+                <div class="contact-right">
+                    <h1>Preenche o formulario</h1>
+                    <div class="linha"></div>
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Name">
+                    <textarea placeholder="Message"></textarea>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>copyright 2022 <a href="">FRONT</a> All rights reserved</span>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-mobile").slideToggle("slow")
+        })
+    </script>
+
+</body>
+</html>
